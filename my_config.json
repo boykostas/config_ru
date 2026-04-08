@@ -32,6 +32,18 @@
   },
   {
     "action": "route",
+    "domain": [
+      "icloud.com",
+      "apple.com",
+      "me.com",
+      "icloud-content.com",
+      "icloud.net",
+      "mzstatic.com"
+    ],
+    "outbound": "direct"
+  },
+  {
+    "action": "route",
     "outbound": "proxy"
   }
 ]
