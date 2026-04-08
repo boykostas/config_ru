@@ -1,0 +1,37 @@
+[
+  {
+    "action": "hijack-dns",
+    "protocol": "dns"
+  },
+  {
+    "action": "route",
+    "ip_is_private": true,
+    "outbound": "direct"
+  },
+  {
+    "action": "route",
+    "domain": [
+      "telegram.org",
+      "youtube.com",
+      "googlevideo.com",
+      "openai.com",
+      "chat.openai.com",
+      "deepseek.com"
+    ],
+    "outbound": "proxy"
+  },
+  {
+    "action": "route",
+    "outbound": "direct",
+    "rule_set": [
+      "geoip-ru",
+      "geosite-ru",
+      "geosite-category-ru",
+      "geosite-ru-available-only-inside"
+    ]
+  },
+  {
+    "action": "route",
+    "outbound": "proxy"
+  }
+]
