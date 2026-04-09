@@ -38,7 +38,8 @@
       "me.com",
       "icloud-content.com",
       "icloud.net",
-      "mzstatic.com"
+      "mzstatic.com",
+      "petrovich.ru"
     ],
     "outbound": "direct"
   },
